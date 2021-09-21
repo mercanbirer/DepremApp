@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">DepremApp</string>
+    <string name="yer">Yer</string>
+    <string name="b_y_kl_k">Büyüklük</string>
+    <string name="derinlik">Derinlik</string>
+    <string name="tarih">Tarih</string>
+</resources>

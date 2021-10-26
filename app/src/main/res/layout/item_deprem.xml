@@ -20,24 +20,24 @@
             android:id="@+id/textviev_yer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@{deprem.yer}"
-            android:layout_marginTop="@dimen/_30sdp"
             android:layout_marginStart="@dimen/_10sdp"
+            android:text="@{deprem.yer}"
             android:textAllCaps="false"
             android:textColor="@color/black"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="@+id/textview_buyukluk"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:textStyle="bold" />
+            app:layout_constraintTop_toTopOf="@+id/textview_buyukluk" />
 
         <androidx.appcompat.widget.AppCompatTextView
             android:id="@+id/textview_buyukluk"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/_30sdp"
-            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginStart="@dimen/_25sdp"
             android:text="@{deprem.buyukluk}"
             android:textColor="@color/red"
             android:textSize="@dimen/_15sdp"
+            android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

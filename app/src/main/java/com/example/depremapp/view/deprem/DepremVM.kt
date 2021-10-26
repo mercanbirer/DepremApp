@@ -28,8 +28,7 @@ class DepremVM @Inject constructor(
     fun getDepremView(
         api: String
     ): LiveData<List<Deprem>> {
-        return if (apiDeprem.value?.size == null) {
-            viewModelScope.launch {
+        viewModelScope.launch {
                 depremRepository.getDeprems(api).collect {
                     if (it.status == Status.SUCCESS) {
                         e { "denememe" }
@@ -40,11 +39,7 @@ class DepremVM @Inject constructor(
 
                 }
             }
-            apiDeprem
-        } else {
-            apiDeprem
+          return apiDeprem
         }
     }
 
-
-}

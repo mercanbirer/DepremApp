@@ -22,7 +22,6 @@ import kotlinx.coroutines.FlowPreview
 class DepremFragment : BaseFragment<FragmentDepremBinding>(R.layout.fragment_deprem) {
 
     lateinit var depremItemAdapter: DepremItemAdapter
-    private var number: Int = 0
 
     private val depremVM: DepremVM by navGraphViewModels(R.id.nav_graph) {
         defaultViewModelProviderFactory

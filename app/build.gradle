@@ -12,7 +12,7 @@ android {
     buildToolsVersion "30.0.0"
 
     defaultConfig {
-        applicationId "com.example.depremapp"
+        applicationId "com.new.depremapp"
         minSdkVersion 21
         targetSdkVersion 30
         versionCode 1
@@ -70,10 +70,6 @@ dependencies {
 
     //timber
     implementation 'com.github.ajalt:timberkt:1.5.1'
-
-    //navigation
-    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
-    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
 
     //retrofit-gson
     implementation "com.squareup.retrofit2:retrofit:2.9.0"

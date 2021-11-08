@@ -38,9 +38,6 @@ class DepremFragment : BaseFragment<FragmentDepremBinding>(R.layout.fragment_dep
                 binding.listviewDeprem.adapter = depremItemAdapter
                 depremItemAdapter.notifyDataSetChanged()
                 binding.listviewDeprem.requestFocus()
-                binding.swipe.setOnRefreshListener {
-                    binding.swipe.isRefreshing = false
-                }
             } else if (binding.listviewDeprem.adapter == null) {
                 e { "yok" }
                 depremItemAdapter = DepremItemAdapter(requireContext(), it)

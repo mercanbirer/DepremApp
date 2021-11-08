@@ -25,7 +25,7 @@ class DepremRepository @Inject constructor(
             )
             e { "denememe" }
             emit(Resource.success(movies))
-        }.retryWhen { cause, attempt ->
+        }.retryWhen {    cause, attempt ->
             i { "attempt count -> $attempt" }
             i { cause.toString() }
             (cause is Exception).also {

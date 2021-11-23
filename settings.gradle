@@ -1,2 +1,3 @@
 rootProject.name = "DepremApp"
 include ':app'
+include ':dotsloader'

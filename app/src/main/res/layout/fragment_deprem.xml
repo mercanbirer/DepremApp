@@ -7,8 +7,7 @@
         android:id="@+id/cl"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/grey"
-        >
+        android:background="@color/grey">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/appCompatTextView"
@@ -34,7 +33,7 @@
             android:text="@string/b_y_kl_k"
             android:textStyle="bold"
             android:focusable="false"
-            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginStart="@dimen/_8sdp"
             android:clickable="false"
             android:background="@color/transparent"
             android:gravity="center"
@@ -76,8 +75,8 @@
                 android:layout_width="0dp"
                 android:layout_height="0dp"
                 android:divider="@null"
-                android:focusable="false"
-                android:clickable="false"
+                android:focusable="true"
+                android:clickable="true"
                 android:paddingStart="@dimen/_5sdp"
                 android:scrollbars="none"
                 app:layout_constraintBottom_toBottomOf="parent"

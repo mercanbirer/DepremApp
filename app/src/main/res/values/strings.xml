@@ -4,4 +4,6 @@
     <string name="b_y_kl_k">Büyüklük</string>
     <string name="derinlik">Derinlik</string>
     <string name="tarih">Tarih</string>
+    <string name="cancel">CANCEL</string>
+    <string name="ok">OK</string>
 </resources>

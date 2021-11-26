@@ -7,7 +7,7 @@
 
         <variable
             name="deprem"
-            type="com.example.depremapp.model.Deprem" />
+            type="com.example.deprem.model.Deprem" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

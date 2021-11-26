@@ -16,8 +16,8 @@ android {
         applicationId "com.new.depremapp"
         minSdkVersion 23
         targetSdkVersion 30
-        versionCode 7
-        versionName "1.1"
+        versionCode 10
+        versionName "1.2"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,7 +33,7 @@ android {
     }
     kapt {
         arguments {
-            arg('eventBusIndex', 'com.redroid.hospitality.MyEventBusIndex')
+            arg('eventBusIndex', 'com.new.depremapp.MyEventBusIndex')
         }
     }
     compileOptions {

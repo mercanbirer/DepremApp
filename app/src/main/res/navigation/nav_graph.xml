@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/depremFragment"
-        android:name="com.example.depremapp.view.deprem.DepremFragment"
+        android:name="com.example.deprem.view.deprem.DepremFragment"
         android:label="DepremFragment"
         tools:layout="@layout/fragment_deprem" />
 </navigation>

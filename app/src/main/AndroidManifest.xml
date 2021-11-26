@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.depremapp">
+    package="com.example.deprem">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <application
-        android:name=".DepremApplication"
+        android:name="com.example.deprem.DepremApplication"
         android:allowBackup="true"
         android:icon="@drawable/earthquake"
         android:label="@string/app_name"
         android:roundIcon="@drawable/earthquake"
         android:supportsRtl="true"
         android:theme="@style/Theme.DepremApp">
-        <activity android:name=".view.MainActivity">
+        <activity android:name="com.example.deprem.view.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

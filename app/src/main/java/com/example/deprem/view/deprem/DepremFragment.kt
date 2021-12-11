@@ -3,6 +3,7 @@ package com.example.deprem.view.deprem
 import android.annotation.SuppressLint
 import android.os.Bundle
 import android.view.View
+import androidx.lifecycle.ViewModel
 import androidx.navigation.navGraphViewModels
 import com.example.deprem.R
 import com.example.deprem.base.BaseFragment
@@ -14,6 +15,7 @@ import com.example.deprem.model.Deprem
 import com.example.deprem.service.ForegroundService
 import com.example.deprem.view.deprem.adapter.DepremItemAdapter
 import com.github.ajalt.timberkt.e
+import com.github.ajalt.timberkt.i
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.android.synthetic.main.fragment_deprem.*
 import kotlinx.coroutines.ExperimentalCoroutinesApi

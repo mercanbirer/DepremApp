@@ -15,6 +15,8 @@ class DepremRepository @Inject constructor(
     private val depremApi: DepremApi,
 ) {
 
+
+
     fun getDeprems(
         api : String
     ): Flow<Resource<List<Deprem>>> {
